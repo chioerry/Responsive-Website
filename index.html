@@ -30,8 +30,12 @@
 
 <body><!--The entire page content is viewed in the body-->
 
-	<div class="container" id="main">
-		<nav class="navbar navbar-fixed-top"><!--The Nav Bar with Heading and other navigation links -->
+	<main><!--All the major content is enclosed in the main tag excluding footer-->
+		<div class="container"><!--The first container with nav bar and 3 section container-->
+		
+			<nav><!--The nav bar having all navigation links-->
+				
+				<div class="navbar navbar-fixed-top"><!--The Nav Bar with Heading and other navigation links -->
 			
 			<div class="container">
 				
@@ -75,7 +79,10 @@
 
 			</div><!--end of container in a navbar-->
 
-		</nav><!--end of nav-bar-fixed-top-->
+		</div><!--end of nav-bar-fixed-top-->
+
+
+			</nav>
 
 		<div class="row" id="section"><!--A Container to store 3 sections where all sections occupy equal space-->
 
@@ -132,16 +139,14 @@
 				
 			</section><!--end of Section3-->
 
-		</div><!--End of Row-->
-	</div><!--end of main container-->
+		</div><!--End of Row containing 3 sections-->
+	</div><!--end of first container-->
 
-	<section class="herounit"><!--Hero unit having a quote and heading-->
+	<section class="herounit"><!--Hero unit having a heading and some text-->
 		<h1>Home</h1>
 		<span>Feels Like Home</span>
 	</section><!--end of Hero Unit-->
-	
-
-		
+			
 		<div class="container"><!--Another container to store to vertical columns and 2nd column divided into 3 rows of sections-->
 
 			<section class="col-sm-6"><!--The first column just like every other column-->
@@ -188,6 +193,9 @@
 			</section><!-- The Section of 3 articles is closed-->
 
 		</div><!--end of columns row with 2 vertical columns-->
+
+	</main>
+	
 
 	<footer class="footer col-12"><!--The Footer has social links-->
 		<h2>Follow Us On 
