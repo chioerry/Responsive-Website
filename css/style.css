@@ -112,7 +112,7 @@ section{
 
 /*--------Styling the carousel--------------*/
 
-#myCarousel{
+#my{
    margin-top: 60px;
 }
 
@@ -123,20 +123,20 @@ section{
    font-size: 32px;
 }
 
-#myCarousel .item{
+#my .item{
    height: 400px;
 }
 
 #slide1{
-   background: url(../img/art_medium.jpg) top center no-repeat;
+   background: url(../img/art_medium.png) top center no-repeat;
 }
 
 #slide2{
-   background: url(../img/mosaic_medium.jpg) top center no-repeat;
+   background: url(../img/mosaic_medium.png) top center no-repeat;
 }
 
 #slide3{
-   background: url(../img/waves_medium.jpg) top center no-repeat;
+   background: url(../img/waves_medium.png) top center no-repeat;
 }
 
 /* --------------------------------------
@@ -150,20 +150,20 @@ section{
 
 /* Landscape phone to portrait tablet */
 @media (max-width: 768px) {
-   #myCarousel .item{
+   #my .item{
    height: 310px;
 }
 
 #slide1{
-   background: url(../img/art_small.jpg) top center no-repeat;
+   background: url(../img/art_small.png) top center no-repeat;
 }
 
 #slide2{
-   background: url(../img/mosaic_small.jpg) top center no-repeat;
+   background: url(../img/mosaic_small.png) top center no-repeat;
 }
 
 #slide3{
-   background: url(../img/waves_small.jpg) top center no-repeat;
+   background: url(../img/waves_small.png) top center no-repeat;
 }
 
 }
@@ -180,20 +180,20 @@ section{
 
 /* Large desktop */
 @media (min-width: 1200px) {
-   #myCarousel .item{
+   #my .item{
    height: 500px;
 }
 
 #slide1{
-   background: url(../img/art_big.jpg) top center no-repeat;
+   background: url(../img/art_big.png) top center no-repeat;
 }
 
 #slide2{
-   background: url(../img/mosaic_big.jpg) top center no-repeat;
+   background: url(../img/mosaic_big.png) top center no-repeat;
 }
 
 #slide3{
-   background: url(../img/waves_big.jpg) top center no-repeat;
+   background: url(../img/waves_big.png) top center no-repeat;
 }
 	
 }
