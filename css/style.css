@@ -1,0 +1,138 @@
+
+
+/*----------Styling the navbar------------*/
+
+.navbar a{
+	float: right;
+	color: black;
+}
+
+.navbar h1{
+	font-size: 40px;
+
+}
+
+.navbar h1,li,a{
+	margin:0;
+	color: black;
+	text-decoration: none;
+}
+
+
+/*------------Styling the image in the 3 column section------------*/
+
+
+.col-md-4 img{
+	height: 250px;
+	width: 300px;
+	
+}
+
+#purpose{
+	margin: 0 10px 5px 0;
+}
+
+/*-------Styling the row----------------*/
+
+
+.row{
+
+	margin-top: 50px;
+	text-align: center;
+}
+
+#hero{
+	width: 100%;
+
+}
+
+
+/*-----------Styling the entire content in the elments-------------*/
+
+
+.container, section, footer{
+
+	font-family: 'Saira', sans-serif;
+	
+}
+
+
+
+body a{
+	font-size:24px;
+	color: white;
+}
+
+
+/*---------Styling the footer-------*/
+
+.footer{
+	width :100%;
+	background: #eeeeee;
+	margin: auto;
+	text-align: center;
+	padding-bottom: 1px;
+	color: black; 
+}
+
+footer a{
+	font-size:36px;
+	color:black;
+}
+
+
+/*------------styling the section------------*/
+
+section{
+	
+	margin: auto;
+	padding-top: 20px;
+	float: left; 
+
+}
+
+.vertical {
+	margin-right: 0;
+	margin-left: 0;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+/*-----------Styling the hero unit----------*/
+
+.herounit{
+	background: #27292d;
+	color: white;
+	width: 100%;
+	text-align: center;
+}
+
+.herounit span{
+	font-size: 24px;
+}
+
+.herounit h1{
+	font-size: 28px;
+}
+
+/*------------Media Queries are used for implementing the responsive design in various width devices---------*/
+
+/*----------Portrait & landscape phone-------------*/
+
+@media(max-width: 480px){
+
+}
+
+
+/*----------Landscape phone to portrait tablet-----------*/
+
+@media(max-width: 768px){
+
+}
+
+
+/*---------Large desktop---------*/
+
+@media(max-width: 1200px){
+
+}
