@@ -3,10 +3,14 @@
 <html>
 
 
-<!--The entire code is similar to previous one with an exception of replacing the grid-960 entirely with bootstrap3-->
+<!--
+	The entire code is similar to previous one with an exception of replacing the grid-960 
+	entirely with bootstrap 3. Attempt is made to use appropriate semantic tags. 
+	Some additional comments are included to provide better understanding.
+-->
 
 
-<head>
+<head><!--The head tag contains meta info tags and title of document  -->
 	<!--The text shown below is displayed in the title bar of the browser-->
 	<title>Responsive Site</title>
 
@@ -26,130 +30,125 @@
 	<link rel="stylesheet" href="css/Include/Font-awesome.min.css">
 	<link rel="stylesheet" href="css/Include/googlefont.css">
 	
-</head>
+</head><!--end of head-->
 
 <body><!--The entire page content is viewed in the body-->
 
 	<main><!--All the major content is enclosed in the main tag excluding footer-->
 		<div class="container"><!--The first container with nav bar and 3 section container-->
-		
+
 			<nav><!--The nav bar having all navigation links-->
 				
 				<div class="navbar navbar-fixed-top"><!--The Nav Bar with Heading and other navigation links -->
-			
-			<div class="container">
-				
-				<button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
+
+					<div class="container"><!--This container holds all links in a place-->
+
+						<button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+
+						<h1 class="pull-left">Gallery</h1>
 
 
-				<div class="nav-collapse collapse navbar-responsive-collapse">
+						<div class="nav-collapse collapse navbar-responsive-collapse">
 
-					<h1 class="pull-left">Gallery</h1>
-
-					<ul class="nav navbar-nav pull-right">
-
-						<li>
-							<a href="#">Contact <i class="fa fa-address-card" ></i></a>
-						</li>
-
-						<li>
-							<a href="#">Subscribe <i class="fa fa-check" ></i></a>
-						</li>
-
-						<li>
-							<a href="#">Careers <i class="fa fa-graduation-cap" ></i></a>
-						</li>
-
-					</ul><!--end of nav navbar pull-right-->
-
-
-					<ul class="nav navbar-nav pull-right">
 							
-						<li class="active">
-							<a href="#">Home <i class="fa fa-globe" ></i></a>
-						</li>
+							<ul class="nav navbar-nav pull-right">
 
-					</ul><!--end of nav navbar pull-right-->				
+								<li class="active">
+									<a href="#">Home <i class="fa fa-globe" ></i></a>
+								</li>
 
-				</div><!--end of navbar-responsive-collapse-->
+								<li>
+									<a href="#">Contact <i class="fa fa-address-card" ></i></a>
+								</li>
 
-			</div><!--end of container in a navbar-->
+								<li>
+									<a href="#">Subscribe <i class="fa fa-check" ></i></a>
+								</li>
 
-		</div><!--end of nav-bar-fixed-top-->
+								<li>
+									<a href="#">Careers <i class="fa fa-graduation-cap" ></i></a>
+								</li>
+
+							</ul><!--end of nav navbar pull-right-->
+
+						</div><!--end of navbar-responsive-collapse-->
+
+					</div><!--end of container in a navbar-->
+
+				</div><!--end of nav-bar-fixed-top-->
+
+			</nav><!--end of navigation bar-->
+
+			<div class="row" id="section"><!--A Container to store 3 sections where all sections occupy equal space-->
+
+				<section id="section1" class="col-sm-4"><!--Section 1 begins & covers a space of 4 grids-->	
+
+					<div class="panel"><!--The panel encloses content within the tags-->
+						<div class="panel-heading">
+							<h3>Nostalgic</h3>
+						</div><!--end of panel-heading-->
+
+						<img src="img/nostalgic.jpg" alt="Nostalgic Image" class="img-circle">
+
+						<p> 
+							Taxidermy keffiyeh kogi biodiesel hashtag. Franzen glossier fingerstache hot chicken. Tousled bicycle rights heirloom locavore fam franzen affogato banjo blog venmo food truck. Health goth mustache fam biodiesel, semiotics 	kitsch tote bag next level taiyaki quinoa intelligentsia +1.
+						</p>
+
+						<a href="#" class="btn btn-block btn-info"> See More </a>
+					</div><!--end of panel-->		
+
+				</section><!--end of Section1-->
+
+				<section id="section2" class="col-sm-4"><!--Section 2 begins & covers a space of 4 more grids-->
+
+					<div class="panel"><!--The panel encloses content within the tags-->
+						<div class="panel-heading">
+							<h3>Party</h3>
+						</div><!--end of panel-heading-->
 
 
-			</nav>
+						<img src="img/party.jpg" alt="Party Image" class="img-circle">
 
-		<div class="row" id="section"><!--A Container to store 3 sections where all sections occupy equal space-->
+						<p>
+							Formal receptions are parties that are designed to receive a large number of guests, often at prestigious venues such as Buckingham Palace, the White House or Government Houses of the British Empire and Commonwealth. The hosts and any guests of honor in the way that no one regrets.
+						</p>
 
-			<section id="section1" class="col-sm-4"><!--Section 1 begins & covers a space of 4 grids-->	
+						<a href="#" class="btn btn-block btn-info"> See More </a>
+					</div><!--end of panel-->			
 
-				<div class="panel">
-					<div class="panel-heading">
-						<h3>Nostalgic</h3>
-					</div><!--end of panel-heading-->
+				</section><!--end of Section2-->
 
-					<img src="img/nostalgic.jpg" alt="Nostalgic Image" class="img-circle">
-				
-					<p> 
-						Taxidermy keffiyeh kogi biodiesel hashtag. Franzen glossier fingerstache hot chicken. Tousled bicycle rights heirloom locavore fam franzen affogato banjo blog venmo food truck. Health goth mustache fam biodiesel, semiotics 	kitsch tote bag next level taiyaki quinoa intelligentsia +1.
-					</p>
+				<section id="section3" class="col-sm-4" ><!--Section 3 begins & covers the remaining space of 4 grids-->
 
-					<a href="#" class="btn btn-block btn-info"> See More </a>
-				</div><!--end of panel-->		
+					<div class="panel"><!--The panel encloses content within the tags-->
+						<div class="panel-heading">
+							<h3>Artistic</h3>
+						</div><!--end of panel-heading-->
 
-			</section><!--end of Section1-->
+						<img src="img/artistic.jpg" alt="Artistic Image" class="img-circle">				
+						<p>
+							Art is a diverse range of human activities in creating visual, auditory or performing artifacts (artworks), expressing the author's imaginative or technical skill, intended to be appreciated for their beauty or emotional power. In their most general form these activities include the production of.
+						</p>
+						<a href="#" class="btn btn-block btn-info"> See More </a>
+					</div><!--end of panel-->
 
-			<section id="section2" class="col-sm-4"><!--Section 2 begins & covers a space of 4 more grids-->
+				</section><!--end of Section3-->
 
-				<div class="panel">
-					<div class="panel-heading">
-						<h3>Party</h3>
-					</div><!--end of panel-heading-->
+			</div><!--End of Row containing 3 sections-->
+		</div><!--end of first container-->
 
+		<section class="herounit"><!--Hero unit having a heading and some text-->
+			<h1>Home</h1>
+			<span>Feels Like Home</span>
+		</section><!--end of Hero Unit-->
 
-					<img src="img/party.jpg" alt="Party Image" class="img-circle">
-				
-					<p>
-						Formal receptions are parties that are designed to receive a large number of guests, often at prestigious venues such as Buckingham Palace, the White House or Government Houses of the British Empire and Commonwealth. The hosts and any guests of honor in the way that no one regrets.
-					</p>
-
-					<a href="#" class="btn btn-block btn-info"> See More </a>
-				</div><!--end of panel-->			
-
-			</section><!--end of Section2-->
-
-			<section id="section3" class="col-sm-4" ><!--Section 3 begins & covers the remaining space of 4 grids-->
-
-				<div class="panel">
-					<div class="panel-heading">
-						<h3>Artistic</h3>
-					</div><!--end of panel-heading-->
-
-					<img src="img/artistic.jpg" alt="Artistic Image" class="img-circle">				
-					<p>
-						Art is a diverse range of human activities in creating visual, auditory or performing artifacts (artworks), expressing the author's imaginative or technical skill, intended to be appreciated for their beauty or emotional power. In their most general form these activities include the production of.
-					</p>
-					<a href="#" class="btn btn-block btn-info"> See More </a>
-				</div><!--end of panel-->
-				
-			</section><!--end of Section3-->
-
-		</div><!--End of Row containing 3 sections-->
-	</div><!--end of first container-->
-
-	<section class="herounit"><!--Hero unit having a heading and some text-->
-		<h1>Home</h1>
-		<span>Feels Like Home</span>
-	</section><!--end of Hero Unit-->
-			
 		<div class="container"><!--Another container to store to vertical columns and 2nd column divided into 3 rows of sections-->
 
-			<section class="col-sm-6"><!--The first column just like every other column-->
+			<section class="col-sm-6"><!--The first column in the 2 column section-->
 
 				<h2>Purpose of Art</h2>
 				<img src="img/purpose.jpg" alt="Image Text" class="pull-left" id="purpose">
@@ -185,7 +184,7 @@
 
 					<h2>What did Picaso Say</h2>
 					<p>
-					Palo santo stumptown austin, chambray keffiyeh hot chicken next level. Biodiesel deep v master cleanse, taiyaki everyday carry pop-up thundercats wayfarers gastropub offal chartreuse migas. Fashion axe tofu lumbersexual franzen intelligentsia man bun cronut freegan roof party cred meggings crucifix keffiyeh. 
+						Palo santo stumptown austin, chambray keffiyeh hot chicken next level. Biodiesel deep v master cleanse, taiyaki everyday carry pop-up thundercats wayfarers gastropub offal chartreuse migas. Fashion axe tofu lumbersexual franzen intelligentsia man bun cronut freegan roof party cred meggings crucifix keffiyeh. 
 
 					</p>
 				</article><!--Row 3 closed -->	
@@ -194,8 +193,7 @@
 
 		</div><!--end of columns row with 2 vertical columns-->
 
-	</main>
-	
+	</main><!--End of Total Main Content-->	
 
 	<footer class="footer col-12"><!--The Footer has social links-->
 		<h2>Follow Us On 
@@ -205,7 +203,9 @@
 		</h2>
 	</footer><!--The Footer is closed-->
 	
-	<!-- If no online access, fallback to our hardcoded version of jQuery -->
+	<!--The scripts are in the end to support faster loading of the page content as loading the libraries takes a bit longer-->
+
+	<!-- Local version of jQuery -->
 	<script>window.jQuery || document.write('<script src="js/jquery-1.8.2.min.js"><\/script>')</script>
 	
 	<!-- Bootstrap JS -->
